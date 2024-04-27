@@ -4,9 +4,9 @@ using namespace std;
 
 int difference(int, int);
 int main(){
-    int a = 2;
-    int b = 4;
-    cout << difference(a, b) << endl;
+    int a = 1;
+    int b = 2;
+    cout << difference(b, a) << endl;
 
     return 0;
 }

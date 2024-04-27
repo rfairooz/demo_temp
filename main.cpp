@@ -1,17 +1,11 @@
 #include <iostream>
+#include <string>
 
-using namespace std;
 
-int difference(int, int);
-int main(){
-    int a = 2;
-    int b = 4;
-    cout << difference(a, b) << endl;
+int main()
+{
+    std::cout << "hello git!" << std::endl;
+    std::cout << "git is easy?" << std::endl;
+    return 1;
 
-    return 0;
-}
-
-int difference(int a, int b){
-    int result = a - b;
-    return result;
 }

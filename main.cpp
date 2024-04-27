@@ -6,7 +6,7 @@ int difference(int, int);
 int main(){
     int a = 2;
     int b = 4;
-    cout << difference(b,a) << endl;
+    cout << difference(a, b) << endl;
 
     return 0;
 }
